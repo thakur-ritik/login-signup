@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dashboard</title>
+</head>
+<body>
+    <h1>Welcome User 🎉</h1>
+    <button onclick="logout()">Logout</button>
+
+    <script>
+        if (!localStorage.getItem("loggedIn")) {
+            window.location.href = "index.html";
+        }
+    </script>
+</body>
+</html>
